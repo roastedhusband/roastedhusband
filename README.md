@@ -1,12 +1,12 @@
-#[Font Awesome v4.3.0](http://fontawesome.io)
+#[Font Awesome v1.0.0](http://www.roastedhusband.com)
 ###The iconic font and CSS framework
 
 Font Awesome is a full suite of 519 pictographic icons for easy scalable vector graphics on websites,
-created and maintained by [Dave Gandy](http://twitter.com/davegandy).
+created and maintained by [Tingshan Cavelti](http://twitter.com/tingshancavelti).
 Stay up to date with the latest release and announcements on Twitter:
-[@fontawesome](http://twitter.com/fontawesome).
+[@roastedhusband](http://twitter.com/roastedhusband).
 
-Get started at http://fontawesome.io!
+Get started at http://www.roastedhusband.com!
 
 ##License
 - The Font Awesome font is licensed under the SIL OFL 1.1:
@@ -56,9 +56,9 @@ And constructed with the following guidelines:
 For more information on SemVer, please visit http://semver.org.
 
 ##Author
-- Email: dave@fontawesome.io
-- Twitter: http://twitter.com/davegandy
-- GitHub: https://github.com/davegandy
+- Email: tingshancavelti@fontawesome.io
+- Twitter: http://twitter.com/tingshancavelti
+- GitHub: https://github.com/roastedhusband
 
 ##Component
 To include as a [component](http://github.com/component/component), just run

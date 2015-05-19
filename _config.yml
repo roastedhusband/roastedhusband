@@ -19,24 +19,25 @@ icon_layout:      icon.html    # Relative to _layouts directory
 icon_destination: icon         # Relative to destination
 
 fontawesome:
-  version:        4.3.0
-  minor_version:  4.3
-  doc_blob:       v4.3.0
-  url:            http://fontawesome.io
-  legacy_url:     http://fortawesome.github.com/Font-Awesome/
-  blog_url:       http://blog.fontawesome.io
-  twitter:        fontawesome
-  tagline:        The iconic font and CSS toolkit
-  css_prefix:     fa
+  version:        1.0.0
+  minor_version:  1.0
+  doc_blob:       v1.0.0
+  site_title:     Roasted Husband
+  url:            http://www.roastedhusband.com
+  legacy_url:     http://www.roastedhusband.com
+  blog_url:       http://blog.roastedhusband.com
+  twitter:        roastedhusband
+  tagline:        The icon font for a visual translation of Chinese restaurant menus 
+  css_prefix:     fa # TODO
   author:
-    name:         Dave Gandy
-    email:        dave@fontawesome.io
-    twitter:      davegandy
-    github:       davegandy
+    name:         Tingshan Cavelti
+    email:        tingshancavelti@fontawesome.io
+    twitter:      tingshancavelti
+    github:       roastedhusband
   github:
-    url:          https://github.com/FortAwesome/Font-Awesome
-    project:      Font-Awesome
-    org:          FortAwesome
+    url:          https://github.com/roastedhusband/roastedhusband
+    project:      roastedhusband
+    org:          roastedhusband
   license:
     font:
       version:      SIL OFL 1.1
