@@ -23,6 +23,8 @@ fontawesome:
   minor_version:  1.0
   doc_blob:       v1.0.0
   site_title:     Roasted Husband
+  fa_fnt_prefix:  font-awesome
+  rh_fnt_prefix:  roasted-husband
   url:            http://www.roastedhusband.com
   legacy_url:     http://www.roastedhusband.com
   blog_url:       http://blog.roastedhusband.com
