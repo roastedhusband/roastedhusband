@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/css?family=Patua+One|Raleway:300);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -881,7 +882,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -982,7 +983,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Patua One', Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -6170,7 +6171,7 @@ button.close {
   background-color: #b33b20;
 }
 .navbar-brand {
-  font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Patua One', Georgia, "Times New Roman", Times, serif;
   font-weight: 300;
   font-size: 20px;
 }
@@ -6238,7 +6239,7 @@ button.close {
   margin: 0 0 15px;
 }
 .jumbotron p {
-  font-family: proxima-nova-sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway' -sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #eacdc7;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -6265,7 +6266,7 @@ button.close {
 }
 .jumbotron-icon h1 small {
   letter-spacing: normal;
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   margin-left: 20px;
 }
@@ -6312,7 +6313,7 @@ button.close {
   background-color: transparent;
 }
 .small-caps {
-  font-family: proxima-nova-sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway' -sc-osf, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 section {
   margin-top: 40px;
@@ -6357,7 +6358,7 @@ section {
 }
 .jumbotron-carousel .btn {
   margin-top: 22px;
-  font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
+  font-family: 'Patua One', Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   padding: 17px 30px;
   color: #ffffff;
@@ -6661,7 +6662,7 @@ section {
   color: #333333;
 }
 .text-sans-serif {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-ellipsis {
   overflow: hidden;
@@ -6669,7 +6670,7 @@ section {
   white-space: nowrap;
 }
 .text-default {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   font-weight: normal;
@@ -6877,7 +6878,7 @@ div.bsap a.adhere:hover {
   background: #91301a !important;
 }
 .sumome-popup .sumome-popup-content .sumome-popup-form h2.sumome-popup-heading {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left !important;
 }
 @media (min-width: 1200px) {
