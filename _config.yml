@@ -29,8 +29,8 @@ fontawesome:
   legacy_url:     http://www.roastedhusband.com
   blog_url:       http://blog.roastedhusband.com
   twitter:        roastedhusband
-  tagline:        The icon font for a visual translation of Chinese restaurant menus 
-  css_prefix:     fa # TODO
+  tagline:        The icon font for visual translations of Chinese restaurant menus 
+  css_prefix:     rh
   author:
     name:         Tingshan Cavelti
     email:        tingshancavelti@fontawesome.io

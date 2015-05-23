@@ -3,6 +3,7 @@
 // Variables
 // --------------------------
 
+@fa-name:             "{{ site.fontawesome.rh_fnt_prefix }}";
 $fa-font-path:        "../fonts" !default;
 $fa-font-size-base:   14px !default;
 //$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/{{site.fontawesome.version}}/fonts" !default; // for referencing Bootstrap CDN font files directly

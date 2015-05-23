@@ -6235,7 +6235,6 @@ button.close {
   font-size: 80px;
   letter-spacing: -2px;
   line-height: 1;
-  text-shadow: 4px 3px 0px #aa381e, 9px 8px 0px rgba(0, 0, 0, 0.15);
   margin: 0 0 15px;
 }
 .jumbotron p {
@@ -6333,7 +6332,6 @@ section {
   font-size: 220px;
   text-align: center;
   line-height: 240px;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
 }
 .carousel-control {
   top: 230px;

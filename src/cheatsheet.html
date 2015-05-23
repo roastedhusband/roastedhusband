@@ -4,27 +4,25 @@ title: Font Awesome Cheatsheet
 relative_path: ../
 ---
 {% capture jumbotron_h1 %}<i class="fa fa-list-ul"></i>&nbsp; Cheatsheet{% endcapture %}
-{% capture jumbotron_p %}The complete Font Awesome {{ site.fontawesome.version }} icon reference{% endcapture %}
+{% capture jumbotron_p %}The complete {{ site.fontawesome.site_title }} {{ site.fontawesome.version }} icon reference{% endcapture %}
 
 {% include jumbotron.html %}
 {% include stripe-social.html %}
 
 <div class="container">
-  {% capture stripe_ad_content %}
   <p class="lead">
-    Print this page to PDF for the complete set of vectors. Or to use on the desktop, install FontAwesome.otf, set it as the font in your application, and copy and paste the icons (not the unicode) directly from this page into your designs.
+    Print this page to PDF for the complete set of vectors. Or to use on the desktop, install {{ site.fontawesome.rh_fnt_prefix }}.otf, set it as the font in your application, and copy and paste the icons (not the unicode) directly from this page into your designs.
   </p>
-  {% endcapture %}
 
-  <h2 class="page-header">Every Font Awesome {{ site.fontawesome.version }} Icon, CSS Class, &amp; Unicode</h2>
+  <h2 class="page-header">Every {{ site.fontawesome.site_title }} {{ site.fontawesome.version }} Icon, CSS Class, &amp; Unicode</h2>
 
   <div class="row">
     {% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}
 
     {% for icon in sorted_icons %}
     <div class="col-md-4 col-sm-6 col-lg-3">
-      <i class="fa fa-fw">&#x{{ icon.unicode }}</i>
-      fa-{{ icon.class }}
+      <i class="rh rh-fw">&#x{{ icon.unicode }}</i>
+      rh-{{ icon.class }}
       {% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}
       <span class="muted">[&amp;#x{{ icon.unicode }};]</span>
     </div>

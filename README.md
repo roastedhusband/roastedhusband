@@ -1,7 +1,7 @@
 #[Font Awesome v1.0.0](http://www.roastedhusband.com)
 ###The iconic font and CSS framework
 
-Font Awesome is a full suite of 519 pictographic icons for easy scalable vector graphics on websites,
+Font Awesome is a full suite of 32 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Tingshan Cavelti](http://twitter.com/tingshancavelti).
 Stay up to date with the latest release and announcements on Twitter:
 [@roastedhusband](http://twitter.com/roastedhusband).
