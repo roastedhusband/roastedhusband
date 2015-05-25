@@ -5,7 +5,7 @@
     {% assign cat_icons = icons | expand_aliases | category:"Spice and Sauce Icons" | sort_by:'class' %}
 
     {% for icon in cat_icons %}
-      <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="rh rh-{{ icon.class }}"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
+      <div class="fa-hover col-md-3 col-sm-4"><a href="{{ page.relative_path }}icon/{{ icon.id }}"><i class="rh rh-{{ icon.class }}" style="font-size: 30px;"></i> {{ icon.class }}{% if icon.alias_of %} <span class="text-muted">(alias)</span>{% endif %}</a></div>
     {% endfor %}
   </div>
 

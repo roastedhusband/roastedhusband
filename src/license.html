@@ -4,26 +4,19 @@ title: Font Awesome License
 navbar_active: license
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="fa fa-gavel"></i>&nbsp; License{% endcapture %}
-{% capture jumbotron_p %}The full details of how Font Awesome is licensed{% endcapture %}
+{% capture jumbotron_h1 %}<i class="rh rh-soybean-sprout"></i>&nbsp; License{% endcapture %}
+{% capture jumbotron_p %}The full details of how {{ site.fontawesome.site_title }} is licensed{% endcapture %}
 
 {% include jumbotron.html %}
 {% include stripe-social.html %}
 
 <div class="container">
-  {% capture stripe_ad_content %}
-  <p class="lead">
-    Font Awesome is fully open source and is GPL friendly. You can use it for commercial projects, open source
-    projects, or really just about whatever you want.
-  </p>
-  {% endcapture %}
-
   <section>
     <div class="alert alert-success">
       <ul class="fa-ul margin-bottom-none">
         <li>
-          <i class="fa-li fa fa-info-circle fa-lg"></i>Attribution is no longer required as of Font Awesome 3.0 but is much appreciated:
-          "Font Awesome by Dave Gandy - http://fontawesome.io".
+          <i class="fa-li fa fa-info-circle fa-lg"></i>Attribution is not required but is much appreciated:
+          "{{ site.fontawesome.site_title }} by {{ site.fontawesome.author.name }} - {{ site.fontawesome.url }}".
         </li>
       </ul>
     </div>
@@ -34,7 +27,7 @@ relative_path: ../
     <ul>
       <li>
         Applies to all desktop and webfont files in the following directory:
-        <code>font-awesome/fonts/</code>.
+        <code>{{ site.fontawesome.rh_fnt_prefix }}/fonts/</code>.
       </li>
       <li>License: {{ site.fontawesome.license.font.version }}</li>
       <li>URL: <a href="{{ site.fontawesome.license.font.url }}">{{ site.fontawesome.license.font.url }}</a></li>
@@ -58,14 +51,10 @@ relative_path: ../
   <section>
     <h2 class="page-header">Documentation License</h2>
     <ul>
-      <li>Applies to all Font Awesome project files that are not a part of the Font or Code licenses.</li>
+      <li>Applies to all {{ site.fontawesome.site_title }} project files that are not a part of the Font or Code licenses.</li>
       <li>License: {{ site.fontawesome.license.documentation.version }}</li>
       <li>URL: <a href="{{ site.fontawesome.license.documentation.url }}">{{ site.fontawesome.license.documentation.url }}</a></li>
     </ul>
   </section>
 
-  <section>
-    <h2 class="page-header">Brand Icons</h2>
-    {% include brand-license.html %}
-  </section>
 </div>
