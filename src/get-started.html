@@ -4,8 +4,10 @@ title: Get Started with Roasted Husband
 navbar_active: get-started
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="rh rh-stir-fried" style="font-size: 100px;"></i>&nbsp; Get Started{% endcapture %}
-{% capture jumbotron_p %}Use {{ site.fontawesome.site_title }} {{ site.fontawesome.version }} on your website or with your desktop app like InDesign, Photoshop, Word or any other app where you can choose a font.{% endcapture %}
+{% capture jumbotron_h1 %}<i class="rh rh-stir-fried" style="font-size: 100px;"></i>&nbsp; Get Started 使用{% endcapture %}
+{% capture jumbotron_p %}
+	Use {{ site.fontawesome.site_title }} {{ site.fontawesome.version }} on your website or with your desktop app like InDesign, Photoshop, Word or any other app where you can choose a font.<br>
+	您可以在任何的网页, 或者图像编辑软件诸如InDesign, Photoshop, Word如使用Roasted Husband 1.0.0.{% endcapture %}
 
 {% include jumbotron.html %}
 {% include stripe-social.html %}
@@ -27,7 +29,7 @@ relative_path: ../
     </ol>
 
     <p>You can place {{ site.fontawesome.site_title }} icons just about
-	    anywhere with the <code>&lt;i&gt;</code> tag, using the CSS Prefix <code>rh</code> and the icon's name.</p>
+	    anywhere with the <code>&lt;i&gt;</code> tag, using the CSS Prefix <code>rh</code> and the icon's english name.</p>
 	<div class="row">
 	    <div class="col-md-6 col-sm-12">
 			{% highlight html %}<i class="rh rh-bean-curd"></i> Delicious Bean Curd{% endhighlight %}
@@ -67,19 +69,81 @@ relative_path: ../
   <a class="list-group-item" href="#"><i class="rh rh-pork rh-fw"></i>&nbsp; Meat</a>
   <a class="list-group-item" href="#"><i class="rh rh-squid rh-fw"></i>&nbsp; Seafood</a>
   <a class="list-group-item" href="#"><i class="rh rh-eggplant rh-fw"></i>&nbsp; Vegetables</a>
-  <a class="list-group-item" href="#"><i class="rh rh-rh-oyster-sauce rh-fw"></i>&nbsp; Sauces</a>
 </div>{% endhighlight %}
 
 	<div class="list-group">
 	  <a class="list-group-item" href="#"><i class="rh rh-pork rh-fw"></i>&nbsp; Meat</a>
 	  <a class="list-group-item" href="#"><i class="rh rh-squid rh-fw"></i>&nbsp; Seafood</a>
 	  <a class="list-group-item" href="#"><i class="rh rh-eggplant rh-fw"></i>&nbsp; Vegetables</a>
-	  <a class="list-group-item" href="#"><i class="rh rh-oyster-sauce rh-fw"></i>&nbsp; Sauces</a>
+	</div>
+
+
+    <h2 class="page-header">网页使用Roasted Husband</h2>
+
+    <p>您可以使用以下的方法在您的CSS网页设置Roasted Husband图标.</p>
+    <ol>
+      <li>下载 <a href="{{ page.relative_path }}assets/{{ site.fontawesome.rh_fnt_prefix }}-{{ site.fontawesome.version }}.zip"><code>{{ site.fontawesome.rh_fnt_prefix }} zip file</code></a>.</li>
+      <li>解压文件</li>
+      <li>直接复制整个 <code>{{ site.fontawesome.rh_fnt_prefix }}</code> 在您的网站上.</li>
+      <li>
+        在您的html <code>&lt;head&gt;</code> 中,把地址指向 {{ site.fontawesome.rh_fnt_prefix }}.min.css.
+
+{% highlight html %}<link rel="stylesheet" href="path/to/{{ site.fontawesome.rh_fnt_prefix }}/css/{{ site.fontawesome.rh_fnt_prefix }}.min.css">{% endhighlight %}
+      </li>
+    </ol>
+
+    <p>您可以插入{{ site.fontawesome.site_title }}图标在任何位置，只需加上<code>&lt;i&gt;</code>，使用
+	CSS Prefix<code>rh</code>和图标的英语名字.</p>
+	<div class="row">
+	    <div class="col-md-6 col-sm-12">
+			{% highlight html %}<i class="rh rh-bean-curd"></i> 美味豆腐{% endhighlight %}
+		</div>
+	    <div class="col-md-6 col-sm-12" style="padding-top: 8px; padding-bottom: 8px; ">
+			<p><i class="rh rh-bean-curd"></i> 美味豆腐</p>
+		</div>
+	</div>
+	<br>
+
+    <p>如果想改变图标的尺寸，使用 <code>rh-lg</code> (加大33%), <code>rh-2x</code>,
+	        <code>rh-3x</code>, <code>rh-4x</code> 或者 <code>rh-5x</code>.
+	</p>
+	<div class="row">
+	    <div class="col-md-6 col-sm-12">
+{% highlight html %}<i class="rh rh-bean-curd rh-lg"></i> 美味豆腐 rh-lg
+<i class="rh rh-bean-curd rh-2x"></i> 美味豆腐 rh-2x
+<i class="rh rh-bean-curd rh-3x"></i> 美味豆腐 rh-3x
+<i class="rh rh-bean-curd rh-4x"></i> 美味豆腐 rh-4x
+<i class="rh rh-bean-curd rh-5x"></i> 美味豆腐 rh-5x{% endhighlight %}
+		</div>
+	    <div class="col-md-6 col-sm-12" style="padding-top: 8px; padding-bottom: 8px; ">
+			<p><i class="rh rh-bean-curd rh-lg"></i> 美味豆腐 rh-lg</p>
+			<p><i class="rh rh-bean-curd rh-2x"></i> 美味豆腐 rh-2x</p>
+			<p><i class="rh rh-bean-curd rh-3x"></i> 美味豆腐 rh-3x</p>
+			<p><i class="rh rh-bean-curd rh-4x"></i> 美味豆腐 rh-4x</p>
+			<p><i class="rh rh-bean-curd rh-5x"></i> 美味豆腐 rh-5x</p>	
+		</div>
+	</div>
+	<br>
+
+    <p>使用 <code>rh-fw</code> 可以固定图标的宽度.可以使用在像网页导航，表格之类编辑.
+	</p>
+	{% highlight html %}
+<div class="list-group">
+  <a class="list-group-item" href="#"><i class="rh rh-pork rh-fw"></i>&nbsp; 肉类</a>
+  <a class="list-group-item" href="#"><i class="rh rh-squid rh-fw"></i>&nbsp; 海鲜类</a>
+  <a class="list-group-item" href="#"><i class="rh rh-eggplant rh-fw"></i>&nbsp; 素菜类</a>
+</div>{% endhighlight %}
+
+	<div class="list-group">
+	  <a class="list-group-item" href="#"><i class="rh rh-pork rh-fw"></i>&nbsp; 肉类</a>
+	  <a class="list-group-item" href="#"><i class="rh rh-squid rh-fw"></i>&nbsp; 海鲜类</a>
+	  <a class="list-group-item" href="#"><i class="rh rh-eggplant rh-fw"></i>&nbsp; 素菜类</a>
 	</div>
   </section>
 
   <section id="desktop-app">
-    <h2 class="page-header">Roasted Husband for your Desktop</h2>
+	
+	<h2 class="page-header">Roasted Husband for your Desktop</h2>
 
     <p>Follow these steps to use Roasted Husband on the desktop.</p>
     <ol>
@@ -90,7 +154,18 @@ relative_path: ../
       <li>Copy and paste the icons (not the unicode) directly from the cheatsheet on this page into your designs.</li>
 	</ol>
 	
-  <h2 class="page-header">Cheatsheet</h2>
+    <h2 class="page-header">使用软件编辑Roasted Husband</h2>
+
+    <p>您可以根据以下的步骤在您的电脑软件里编辑Roasted Husband图标.</p>
+    <ol>
+      <li>下载 <a href="{{ page.relative_path }}assets/{{ site.fontawesome.rh_fnt_prefix }}-{{ site.fontawesome.version }}.zip"><code>{{ site.fontawesome.rh_fnt_prefix }} zip file</code></a>.</li>
+      <li>解压文件.</li>
+      <li>安装 {{ site.fontawesome.rh_fnt_prefix }}.ttf 或者 {{ site.fontawesome.rh_fnt_prefix }}.otf. 您将会直接在<code>font</code>s文件夹里找到已经解压的文件.</li>
+      <li>设置 {{ site.fontawesome.rh_fnt_prefix }} 为您的字体.</li>
+      <li>直接在参照表里复制我们的图标，粘贴到您的设计里.</li>
+	</ol>
+	
+  <h2 class="page-header">Cheatsheet 参照表</h2>
 
   <div class="row">
     {% assign sorted_icons = icons | expand_aliases | sort_by:'class' %}

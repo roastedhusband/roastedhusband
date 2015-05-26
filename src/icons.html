@@ -1,25 +1,18 @@
 ---
 layout: base
-title: Font Awesome Icons
+title: Roasted Husband Icons
 navbar_active: icons
 relative_path: ../
 ---
-{% capture jumbotron_h1 %}<i class="rh rh-grilled"></i>&nbsp; The Icons{% endcapture %}
-{% capture jumbotron_p %}The complete set of {{ icons | size }} icons in {{ site.fontawesome.site_title }} {{ site.fontawesome.version }}{% endcapture %}
+{% capture jumbotron_h1 %}<i class="rh rh-grilled"></i>&nbsp;The Icons 图标{% endcapture %}
+{% capture jumbotron_p %}
+	The complete set of {{ icons | size }} icons in {{ site.fontawesome.site_title }} {{ site.fontawesome.version }}<br>
+	{{ site.fontawesome.site_title }} 版本 {{ site.fontawesome.version }}包含完整的{{ icons | size }}个图标.{% endcapture %}
 
 {% include jumbotron.html %}
 {% include stripe-social.html %}
 
 <div class="container">
-  {% capture stripe_ad_content %}
-  <p class="lead">
-    You asked, Font Awesome delivers with {{ icons | version:site.fontawesome.minor_version | size }} shiny new icons in version {{ site.fontawesome.minor_version }}.
-    Want to request new icons? <a href="{{ page.relative_path }}community/#requesting-new-icons">Here's how</a>.
-    <!--The ever-expanding list of Font Awesome {{ site.fontawesome.version }} icons.-->
-    Need vectors or want to use on the desktop? Check the <a href="{{ page.relative_path }}cheatsheet/">cheatsheet</a>.
-  </p>
-  {% endcapture %}
-
   {% include icons/filter.html %}
 
   {% include icons/meat.html %}

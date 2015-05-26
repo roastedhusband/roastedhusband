@@ -6942,6 +6942,9 @@ div.bsap a.adhere:hover {
   .hide-md {
     display: none;
   }
+  .fontawesome-icon-list .fa-hover a {
+    font-size: 14px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #icon-carousel {
@@ -6988,6 +6991,9 @@ div.bsap a.adhere:hover {
   }
   .hide-sm {
     display: none;
+  }
+  .fontawesome-icon-list .fa-hover a {
+    font-size: 14px;
   }
 }
 @media (max-width: 767px) {

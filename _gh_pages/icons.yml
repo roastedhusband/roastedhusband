@@ -3,6 +3,7 @@ icons:
     id:         carrot
     unicode:    'e000'
     created:    1.0
+    mandarin:   胡萝卜
     filter:
     categories:
       - Vegetable Icons
@@ -11,6 +12,7 @@ icons:
     id:         chicken
     unicode:    'e001'
     created:    1.0
+    mandarin:   鸡肉
     filter:
     categories:
       - Meat Icons
@@ -19,6 +21,7 @@ icons:
     id:         chilli
     unicode:    'e002'
     created:    1.0
+    mandarin:   辣椒
     filter:
     categories:
       - Spice and Sauce Icons
@@ -27,6 +30,7 @@ icons:
     id:         beef
     unicode:    'e003'
     created:    1.0
+    mandarin:   牛肉
     filter:
     categories:
       - Meat Icons
@@ -35,6 +39,7 @@ icons:
     id:         crab
     unicode:    'e004'
     created:    1.0
+    mandarin:   蟹
     filter:
     categories:
       - Seafood Icons
@@ -43,6 +48,7 @@ icons:
     id:         egg
     unicode:    'e005'
     created:    1.0
+    mandarin:   鸡蛋
     filter:
     categories:
       - Meat Icons
@@ -51,6 +57,7 @@ icons:
     id:         fish
     unicode:    'e006'
     created:    1.0
+    mandarin:   鱼
     filter:
     categories:
       - Seafood Icons
@@ -59,6 +66,7 @@ icons:
     id:         fried
     unicode:    'e007'
     created:    1.0
+    mandarin:   炸
     filter:
     categories:
       - Cooking Method Icons
@@ -67,6 +75,7 @@ icons:
     id:         goose
     unicode:    'e008'
     created:    1.0
+    mandarin:   鹅肉
     filter:
     categories:
       - Meat Icons
@@ -75,6 +84,7 @@ icons:
     id:         grilled
     unicode:    'e009'
     created:    1.0
+    mandarin:   烤
     filter:
     categories:
       - Cooking Method Icons
@@ -83,6 +93,7 @@ icons:
     id:         garlic
     unicode:    'e00a'
     created:    1.0
+    mandarin:   大蒜
     filter:
     categories:
       - Spice and Sauce Icons
@@ -91,6 +102,7 @@ icons:
     id:         lobster
     unicode:    'e00b'
     created:    1.0
+    mandarin:   龙虾
     filter:
     categories:
       - Seafood Icons
@@ -99,6 +111,7 @@ icons:
     id:         mushroom
     unicode:    'e00c'
     created:    1.0
+    mandarin:   菇
     filter:
     categories:
       - Vegetable Icons
@@ -107,6 +120,7 @@ icons:
     id:         squid
     unicode:    'e00d'
     created:    1.0
+    mandarin:   鱿鱼
     filter:
     categories:
       - Seafood Icons
@@ -115,6 +129,7 @@ icons:
     id:         oyster-sauce
     unicode:    'e00e'
     created:    1.0
+    mandarin:   蚝油
     filter:
     categories:
       - Spice and Sauce Icons
@@ -123,6 +138,7 @@ icons:
     id:         pak-choi
     unicode:    'e00f'
     created:    1.0
+    mandarin:   青菜
     filter:
     categories:
       - Vegetable Icons
@@ -131,6 +147,7 @@ icons:
     id:         peanut
     unicode:    'e010'
     created:    1.0
+    mandarin:   花生
     filter:
     categories:
       - Spice and Sauce Icons
@@ -139,6 +156,7 @@ icons:
     id:         pork
     unicode:    'e011'
     created:    1.0
+    mandarin:   猪肉
     filter:
     categories:
       - Meat Icons
@@ -147,6 +165,7 @@ icons:
     id:         stir-fried
     unicode:    'e012'
     created:    1.0
+    mandarin:   炒
     filter:
     categories:
       - Cooking Method Icons
@@ -155,6 +174,7 @@ icons:
     id:         lamb
     unicode:    'e013'
     created:    1.0
+    mandarin:   羊肉
     filter:
     categories:
       - Meat Icons
@@ -163,6 +183,7 @@ icons:
     id:         soy-sauce
     unicode:    'e014'
     created:    1.0
+    mandarin:   酱油
     filter:
     categories:
       - Spice and Sauce Icons
@@ -171,6 +192,7 @@ icons:
     id:         soybean-sprout
     unicode:    'e015'
     created:    1.0
+    mandarin:   豆芽
     filter:
     categories:
       - Vegetable Icons
@@ -179,6 +201,7 @@ icons:
     id:         spring-onion
     unicode:    'e016'
     created:    1.0
+    mandarin:   葱
     filter:
     categories:
       - Spice and Sauce Icons
@@ -187,6 +210,7 @@ icons:
     id:         steamed
     unicode:    'e017'
     created:    1.0
+    mandarin:   蒸
     filter:
     categories:
       - Cooking Method Icons
@@ -195,6 +219,7 @@ icons:
     id:         eggplant
     unicode:    'e018'
     created:    1.0
+    mandarin:   茄子
     filter:
     categories:
       - Vegetable Icons
@@ -203,6 +228,7 @@ icons:
     id:         tomato
     unicode:    'e019'
     created:    1.0
+    mandarin:   番茄
     filter:
     categories:
       - Vegetable Icons
@@ -211,6 +237,7 @@ icons:
     id:         bean-curd
     unicode:    'e01a'
     created:    1.0
+    mandarin:   豆腐
     filter:
     categories:
       - Vegetable Icons
@@ -219,6 +246,7 @@ icons:
     id:         ginger
     unicode:    'e01b'
     created:    1.0
+    mandarin:   生姜
     filter:
     categories:
       - Spice and Sauce Icons
@@ -227,6 +255,7 @@ icons:
     id:         bamboo
     unicode:    'e01c'
     created:    1.0
+    mandarin:   笋
     filter:
     categories:
       - Vegetable Icons
@@ -235,6 +264,7 @@ icons:
     id:         bellpeper
     unicode:    'e01d'
     created:    1.0
+    mandarin:   甜椒
     filter:
     categories:
       - Vegetable Icons
@@ -243,14 +273,16 @@ icons:
     id:         boiled
     unicode:    'e01e'
     created:    1.0
+    mandarin:   煮
     filter:
     categories:
-      - Cooking Method   Icons
+      - Cooking Method Icons
 
   - name:       Broccoli
     id:         broccoli
     unicode:    'e01f'
     created:    1.0
+    mandarin:   西兰花
     filter:
     categories:
       - Vegetable Icons
